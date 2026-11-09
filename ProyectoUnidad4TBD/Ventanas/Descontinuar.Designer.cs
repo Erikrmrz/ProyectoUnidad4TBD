@@ -76,7 +76,7 @@ namespace ProyectoUnidad4TBD
             btnDescontinuar.Name = "btnDescontinuar";
             btnDescontinuar.Size = new Size(232, 38);
             btnDescontinuar.TabIndex = 3;
-            btnDescontinuar.Text = "Descontinuar";
+            btnDescontinuar.Text = "Agregar a la lista";
             btnDescontinuar.UseVisualStyleBackColor = false;
             btnDescontinuar.Click += btnDescontinuar_Click;
             // 
@@ -85,7 +85,7 @@ namespace ProyectoUnidad4TBD
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
-            ClientSize = new Size(922, 528);
+            ClientSize = new Size(996, 507);
             Controls.Add(btnDescontinuar);
             Controls.Add(txtCodigoBarras);
             Controls.Add(label1);
